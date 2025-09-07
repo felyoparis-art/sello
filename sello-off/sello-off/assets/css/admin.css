@@ -1,0 +1,7 @@
+/* ==========================================================================
+ File: assets/css/admin.css
+========================================================================== */
+.sello-wrap .sello-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:12px}
+.sello-card{background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:16px;font-weight:600}
+@media (max-width:1024px){.sello-wrap .sello-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.sello-wrap .sello-grid{grid-template-columns:1fr}}

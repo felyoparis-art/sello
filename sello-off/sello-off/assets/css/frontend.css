@@ -1,0 +1,18 @@
+/* Simple layout */
+.sello-panel{display:flex;gap:16px;margin:16px 0}
+.sello-panel.sidebar_right .sello-panel-inner{width:var(--sello-w-facets);order:1}
+.sello-panel.sidebar_right .sello-pinned{width:var(--sello-w-pinned);order:2}
+.sello-panel.sidebar_left .sello-panel-inner{order:2}
+.sello-panel.sidebar_left .sello-pinned{order:1}
+.sello-facet{border:1px solid #e5e7eb;border-radius:8px;padding:12px;margin:12px 0;background:#fff}
+.sello-facet-head{margin-bottom:8px}
+.sello-facet-list{list-style:none;margin:0;padding:0}
+.sello-facet-list li{margin:6px 0}
+.sello-actions{display:flex;gap:8px;margin-top:12px}
+.sello-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:8px}
+.sello-chip{display:inline-flex;gap:6px;align-items:center;background:#eef2ff;border:1px solid #c7d2fe;color:#1f2937;border-radius:999px;padding:4px 10px;text-decoration:none}
+.sello-chip-clear{margin-left:auto;text-decoration:none}
+.sello-pinned{border:1px dashed #e5e7eb;border-radius:8px;padding:12px;background:#fafafa}
+.sello-hero{margin:12px 0}
+.sello-hero-track{display:flex;gap:8px;overflow:auto}
+.sello-hero-card{display:inline-flex;align-items:center;justify-content:center;min-width:120px;height:64px;border:1px solid #e5e7eb;border-radius:10px;background:#fff;padding:8px;text-decoration:none;color:#111}

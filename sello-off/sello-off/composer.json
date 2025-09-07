@@ -1,0 +1,11 @@
+{
+  "name": "sello",
+  "description": "SELLO — Facets, Presets, Filters, Slider & Pinned (squelette admin V1)",
+  "type": "wordpress-plugin",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Sello\\": "includes/"
+    }
+  }
+}
